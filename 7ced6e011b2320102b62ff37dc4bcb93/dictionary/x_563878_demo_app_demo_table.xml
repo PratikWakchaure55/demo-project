@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Demo Table" max_length="40" name="x_563878_demo_app_demo_table" sizeclass="3" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="loacation" max_length="40" name="loacation" type="string">
+            <choice>
+                <element inactive_on_update="false" label="pune" sequence="0" value="pune"/>
+                <element inactive_on_update="false" label="mumbai" sequence="1" value="mumbai"/>
+                <element inactive_on_update="false" label="banglore" sequence="2" value="banglore"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="notes" max_length="40" name="notes" type="string"/>
+        <element label="Number" max_length="40" name="number" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="order" max_length="40" name="order" type="choice">
+            <choice/>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="date" max_length="40" name="u_glide_date_4" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="order" max_length="40" name="u_string_1" type="string"/>
+    </element>
+</database>
